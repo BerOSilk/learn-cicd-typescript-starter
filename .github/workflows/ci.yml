@@ -18,5 +18,5 @@ on:
           with:
             node-version: 22
         
-        - name: Force Failure
-          run: (exit 1)
+        - name: Check Node version
+          run: node --version
